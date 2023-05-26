@@ -288,3 +288,56 @@
 .header-site .second-header ul >li .down-menu dl dd a:hover{
   color: orange;
 }
+
+/* ----------------------------------------------第三层导航---------------------------------------------- */
+.header-site .last-header{
+  /* 不使用height来定义完整的高度78px，是为了搜索框的好调整 */
+  height: 36px;
+  padding: 21px 0;
+}
+/* 暮云游商城标题 */
+.header-site .last-header h1 {
+  float: left;
+  font-size: 24px;
+  color: #20BD9A;
+  /* 给字体加粗 */
+  font-weight: bold;
+  line-height: 36px;
+}
+
+/* 整个搜素框 */
+.header-site .last-header .soso-box {
+  float: left;
+  width: 405px;
+  margin-left: 20px;
+  padding: 3px 0;
+}
+/* 搜索框中的输入框 */
+.header-site .last-header .soso-box input{
+  float: left;
+  height: 28px;
+  /* 减去padiing-left的1-px ，即371px - 10px */
+  width: 361px;
+  border: 1px solid #20BD9A;
+  /*  分别对四个角进行设置，左边两个微圆角，右边两个为直角 */
+  border-radius: 4px 0 0 4px;
+  font-size: 14px;
+  /* 取消默认的外线（外线是文本框特有的东西） */
+  outline: none;
+  /* 输入框中的输入文本与输入框贴的太近，不美观 */
+  /* 添加的同时会将原本的宽度增加10px，需减去 */
+  padding-left: 10px;
+}
+/* 输入框中的搜索按钮 */
+.header-site .last-header .soso-box a {
+  float: left;
+  width: 32px;
+  height: 30px;
+  /* 水平垂直居中 */
+  line-height: 30px;
+  text-align: center;
+  background-color: #20BD9A;
+  color: white;
+  border-radius: 0 4px 4px 0;
+  font-size: 18px;
+}
