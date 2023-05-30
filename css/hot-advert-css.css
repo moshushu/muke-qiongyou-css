@@ -1,0 +1,13 @@
+.hot-advert {
+  margin: 32px 0;
+  background-color: aqua;
+}
+.hot-advert .center-wrap >ul >li {
+  float: left;
+  width: 264px;
+  height: 110px;
+  margin-right: 32px;
+}
+.hot-advert .center-wrap >ul >li:last-child {
+  margin-right: 0;
+}
