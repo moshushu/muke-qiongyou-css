@@ -18,6 +18,10 @@
 .fresh-tail .center-wrap >ul >li:nth-child(4n){
   margin-right: 0;
 }
+/* 图片部分 */
+.fresh-tail .center-wrap > ul>li .picbox{
+  height: 184px;
+}
 
 /* 文字部分 */
 .fresh-tail .center-wrap > ul>li .wordbox {

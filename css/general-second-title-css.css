@@ -1,3 +1,7 @@
+/* 标题 */
+.second-title{
+  margin-bottom: 32px;
+}
 /* 二级标题的通用样式 */
 .second-title >h2 {
   float: left;
@@ -14,8 +18,4 @@
   left: 12px;
   font-size: 12px;
   color: #1C1F21;
-}
-/* 标题 */
-.fresh-tail .center-wrap .second-title{
-  margin-bottom: 32px;
 }
