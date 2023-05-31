@@ -30,6 +30,7 @@ body {
 .clearfix::after {
   content: '';
   display: block;
+  /* 清除了左右两侧的浮动效果 */
   clear: both;
   overflow: hidden;
 }
