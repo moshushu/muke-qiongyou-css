@@ -1,6 +1,6 @@
 .hotel-free {
   background: #FFFFFF;
-  height: 738px;
+  height: 698px;
   padding-top: 40px;
 }
 
@@ -99,6 +99,7 @@
   text-align: center;
   line-height: 40px;
   background-color: rgba(0, 0, 0, 0.60);
+  z-index: 9999;
 }
 /* 首个的tag独有样式 */
 .hotel-free .center-wrap ul li.big-grid .tag {
