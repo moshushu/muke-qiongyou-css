@@ -57,6 +57,7 @@
   width: 364px;
   height: 270px;
   margin-bottom: 30px;
+  overflow: hidden;
 }
 
 /* 大图中的文字部分 */
